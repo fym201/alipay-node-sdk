@@ -14,7 +14,7 @@ var outTradeId = Date.now().toString();
 
 var ali = new Alipay({
     appId: '2016080300159077',
-    notifyUrl: 'http://www.iobox.me/callback/alipay',
+    notifyUrl: 'http://www.xxx.com/callback/alipay',
     rsaPrivate: path.resolve('./pem/sandbox_iobox_private.pem'),
     rsaPublic: path.resolve('./pem/sandbox_ali_public.pem'),
     sandbox: true,
