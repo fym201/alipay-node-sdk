@@ -6,10 +6,10 @@
 
 
 ```js
-var path = require('path');
-var Alipay = require('../lib/alipay');
+const path = require('path');
+const Alipay = require('alipay-node-sdk');
 
-var outTradeId = Date.now().toString();
+let outTradeId = Date.now().toString();
 
 /**
  *
@@ -188,6 +188,10 @@ ali.billDownloadUrlQuery({
 
 ```
 
+## 注意
+```sh
+支付宝的公钥下载后需要格式化才能使用(添加首尾、以每行64字符进行断行),参考test/pem/sandbox_ali_public.pem
+```
 
 ## Install
 
