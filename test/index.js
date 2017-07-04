@@ -20,13 +20,13 @@ var ali = new Alipay({
 ali.query({
     outTradeId: outTradeId
 }).then(function (ret) {
-    console.log("***** ret.body=" + body);
+    console.log("***** ret.body=" + ret.body);
 });
 
 ali.close({
     outTradeId: outTradeId
 }).then(function (ret) {
-    console.log("***** ret.body=" + body);
+    console.log("***** ret.body=" + ret.body);
 });
 
 
@@ -36,7 +36,7 @@ ali.refund({
     refundAmount: '2.01',
     refundReason: '退款'
 }).then(function (ret) {
-    console.log("***** ret.body=" + body);
+    console.log("***** ret.body=" + ret.body);
 });
 
 
@@ -44,5 +44,5 @@ ali.billDownloadUrlQuery({
     billType: 'trade',
     billDate: '2017-03'
 }).then(function (ret) {
-    console.log("***** ret.body=" + body);
+    console.log("***** ret.body=" + ret.body);
 });
