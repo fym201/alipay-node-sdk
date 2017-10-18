@@ -1,6 +1,6 @@
 {
   "name": "alipay-node-sdk",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "description": "支付宝App支付nodejs SDK",
   "private": false,
   "homepage": "https://github.com/fym201/alipay-node-sdk#readme",
